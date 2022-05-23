@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.container{
+    width: 480px;
+    font-family: sans-serif;
+    color: rgb(34, 34, 34);
+}
+
+.copy {
+    width: 30px;
+    cursor: pointer;
+    filter: opacity(0.5);
+}
+
+.copy:hover {
+    transform: 0.3s;
+    filter: opacity(1);
+
+}
+
+.number {
+    width: 50px;
+font-size: 20px;
+}
+
+.password {
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+
+.btn {
+    width: 100px;
+    height: 30px;
+    border: 2px solid rgb(81, 214, 81);
+    display: block;
+    border-radius: 5px;
+    color: rgb(81, 212, 81);
+    margin-top: 30px 
